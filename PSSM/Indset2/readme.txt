@@ -1,1 +1,1 @@
-Independent1 Dataset (Kumar 2009)含有823个DNA结合蛋白和823个非DNA结合蛋白，
+Independent2 Dataset (Kumar 2009)含有88个DNA结合蛋白和233个非DNA结合蛋白，
