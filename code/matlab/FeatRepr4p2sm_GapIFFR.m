@@ -1,5 +1,5 @@
-% 特征表示：Cov_gapPSSM
-% wenjie (2018.12.04)
+% 特征表示：GapIFFR
+% wenjie (2022.10.04)
 
 tic,
 clear, clc
@@ -32,5 +32,5 @@ cc=logical(cc);
 cov_ngapp2sm=cov_ngapp2sm(:,repmat(cc,1,numgap));
 
 toc
-filename = ['PDB1075_vec351_gapp2sm26_gap0_', num2str(minlen-1), '_STD.mat'];
+filename = ['PDB1075_vec351_gapp2sm26_gap0_', num2str(minlen-1), '.mat'];
 save(filename, 'cov_ngapp2sm');

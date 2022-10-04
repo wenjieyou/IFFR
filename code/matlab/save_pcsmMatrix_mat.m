@@ -1,6 +1,6 @@
 % 计算并存贮蛋白质序列的物理化学属性，并存贮成类似于PSSM格式，
 % 该数据用于和PSSM进行多信息融合计算。
-% wenjie (2016.07.18)
+% wenjie (2022.10.04)
 
 clear, clc
 tic,
@@ -28,7 +28,7 @@ for i=1:1075
     fclose(fidin);
     
     % header 可用于判断类别
-    [header,sequence]=fastaread(['PDB1075_BPs_525_550_seq_FASTA\seq_FASTA', num2str(i), '.fasta']);
+    [header,sequence]=fastaread(['PDB1075_seq_FASTA\seq_FASTA', num2str(i), '.fasta']);
     seqlen=size(sequence,2);   %读取序列长度
     
     temp=pcdat(id,:);
