@@ -1,2 +1,1 @@
-IFFR
-GapIFFR
+基于PSSM和PCSM交互效应的特征表示：IFFR和GapIFFR
